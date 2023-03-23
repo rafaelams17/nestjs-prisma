@@ -9,8 +9,11 @@ $ npm install
 ```
 
 ## Executar o projeto
+
 ```bash
 $ npx prisma studio 
-``` 
+```
+
+```bash 
 $ npm run start:dev
 
