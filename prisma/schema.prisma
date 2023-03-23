@@ -1,0 +1,19 @@
+// construe o banco de dados 
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Book { // nome do model 
+  id String @id @default(uuid())
+  title String 
+  description String 
+  bar_code String @unique
+  
+  @@map("books") // nome da tabela
+}
