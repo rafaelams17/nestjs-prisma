@@ -1,16 +1,15 @@
+## Armazenamento de Livros 
 
+Este projeto foi desenvolvido com o objetivo de criar uma tabela com os dados de um livro, usando o Framework Nestjs e Prisma.
 
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
+## Intalação 
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Executar o projeto
 
-mudar esse Readme
+$ npx prisma studio 
+$ npm run start:dev
 
